@@ -51,22 +51,22 @@ interface IVoiceChannelEffectSendEvent {
     animationId: number;
 }
 
-const MOYAI = "🗿";
+const MOYAI = "💀";
 const MOYAI_URL =
-    "https://raw.githubusercontent.com/MeguminSama/VencordPlugins/main/plugins/moyai/moyai.mp3";
+    "https://raw.githubusercontent.com/CreepyPSC/vencordSkull/main/plugins_riff_badtobone.mp3";
 const MOYAI_URL_HD =
-    "https://raw.githubusercontent.com/MeguminSama/VencordPlugins/main/plugins/moyai/moyai_hd.wav";
+    "https://raw.githubusercontent.com/CreepyPSC/vencordSkull/main/plugins_riff_badtobone.mp3";
 
 const settings = definePluginSettings({
     volume: {
-        description: "Volume of the 🗿🗿🗿",
+        description: "Volume of the 💀💀💀",
         type: OptionType.SLIDER,
         markers: makeRange(0, 1, 0.1),
         default: 0.5,
         stickToMarkers: false
     },
     quality: {
-        description: "Quality of the 🗿🗿🗿",
+        description: "Quality of the 💀💀💀",
         type: OptionType.SELECT,
         options: [
             { label: "Normal", value: "Normal", default: true },
@@ -74,7 +74,7 @@ const settings = definePluginSettings({
         ],
     },
     triggerWhenUnfocused: {
-        description: "Trigger the 🗿 even when the window is unfocused",
+        description: "Trigger the 💀 even when the window is unfocused",
         type: OptionType.BOOLEAN,
         default: true
     },
@@ -91,9 +91,9 @@ const settings = definePluginSettings({
 });
 
 export default definePlugin({
-    name: "Moyai",
+    name: "BTTB Riff",
     authors: [Devs.Megu, Devs.Nuckyz],
-    description: "🗿🗿🗿🗿🗿🗿🗿🗿",
+    description: "💀💀💀💀💀💀💀💀",
     settings,
 
     flux: {
